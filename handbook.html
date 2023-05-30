@@ -4,65 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+	<!--<link rel="icon" href="">-->
     <title>CSUF MPA Program Handbook</title>
     <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
 	
-	<style>
-body {
-  padding-top: 70px; /* Adjust this value based on the height of your navbar */
-}
-</style>
+	
 
 </head>
-<body class="landing">
-    <header class="alt">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+	<body class="landing">
 
-            <a class="navbar-brand" href="handbook.html">MPA Handbook</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="https://mpa.fullerton.edu">MPA Website</a>
-                    </li>
-                    
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Handbook Sections</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="general_info.html">General</a>
-                            <a class="dropdown-item" href="#">Degree Requirements</a>
-                            <!--- <div class="dropdown-divider"></div> --->
-                            <a class="dropdown-item" href="#">Academic Standards</a>
-							<a class="dropdown-item" href="#">Awards, Honors, Scholarships</a>
-                            <a class="dropdown-item" href="#">Campus Support &amp; Resources</a>
-                            <a class="dropdown-item" href="#">Course Descriptions</a>
-                        </div>
-                    </li>
-			
-                </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
-            </div>
-        </nav>
+		<!-- Header -->
+			<header id="header" class="alt">
+				<h1><a href="handbook.html">MPA Handbook</a></h1>
+				<h1><a href="https://mpa.fullerton.edu">MPA Website</a></h1>
+				<a href="#nav">Menu</a>
+			</header>
+<style>
+    header {
+        margin-bottom: 50px;
+    }
+</style>
+		<!-- Nav -->
+			<nav id="nav">
+				<ul class="links">
+					<li><a href="handbook.html">MPA Handbook</a></li>
+					<li><a href="general_info.html">General Information</a></li>
+						<ul>
+							<li><a href="general_info.html#mission">Mission Statement</a></li>
+							<li><a href="general_info.html#generalfacts">General Facts</a></li>
+							<li><a href="general_info.html#admissions">Admissions</a></li>
+							<li><a href="general_info.html#cost">Cost of Degree</a></li>
+							<li><a href="general_info.html#structure">Program Structure</a></li>
+						</ul>
+					<li><a href="">Degree Requirements</a></li>
+					<li><a href="">Graduate Academic Standards</a></li>
+					<li><a href="">Awards, Honors, Scholarships</a></li>
+					<li><a href="">Campus Rsources and Support</a></li>
+					<li><a href="">Course Descriptions</a></li>
+				</ul>
+			</nav>
 		       
-		
-		<section id="banner">
-            <h2>Master of Public Administration (MPA) Program</h2>
-            <h4>Welcome to the Master of Public Administration (MPA) Program at California State University, Fullerton (CSUF).  This student handbook contains helpful information to guide students through the MPA program.  </h4>
+	<main>
+			
+		<section id="banner2">
+          <h2>Master of Public Administration (MPA) Program</h2>
+            <h3> This student handbook contains helpful information to guide students through the MPA program.  </h3>
         
 		</section>
-	</header>
    
 	<!--- Main part of document-->
 	
-	<main>
-		
+	
     <section class="wrapper style1">
       <div class="container ">
         <div class="row">
@@ -161,42 +154,7 @@ body {
       </div>
     </section>
 		
-	  <section class="wrapper style1 special">	
-    <div class="container">
-      <div class="row">
-        <div class="col-12 col-md-8 mx-auto">
-          <div class="jumbotron">
-            <div class="row text-center">
-              <div class="text-center col-12">
-                <h2>Request Information</h2>
-              </div>
-              <div class="text-center col-12">
-                <!-- CONTACT FORM https://github.com/jonmbake/bootstrap3-contact-form -->
-                <form id="feedbackForm" class="text-center">
-                  <div class="form-group">
-                    <label for="name">Name</label>
-                    <input type="text" class="form-control" id="name" name="name" placeholder="Name" aria-describedby="nameHelp">
-                    <span id="nameHelp" class="form-text text-muted" style="display: none;">Please enter your name.</span>
-                  </div>
-                  <div class="form-group">
-                    <label for="email">E-Mail</label>
-                    <input type="email" class="form-control" id="email" name="email" placeholder="Email Address" aria-describedby="emailHelp">
-                    <span id="emailHelp" class="form-text text-muted" style="display: none;">Please enter a valid e-mail address.</span>
-                  </div>
-                  <div class="form-group">
-                    <label for="message">Message</label>
-                    <textarea rows="10" cols="100" class="form-control" id="message" name="message" placeholder="Message" aria-describedby="messageHelp"></textarea>
-                    <span id="messageHelp" class="form-text text-muted" style="display: none;">Please enter a message.</span>
-                  </div>
-                  <button type="submit" id="feedbackSubmit" class="btn btn-primary btn-lg"> Send</button>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-	</section>
+
 		</main>
    <!-- Rest of your HTML here -->
 	<footer id="footer">
@@ -210,9 +168,14 @@ body {
 	
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+		
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/skel.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
 
 
 </body>

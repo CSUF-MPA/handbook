@@ -14,20 +14,6 @@
 		vertical-align: baseline;
 	}
 
-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 100; 
-}
-
-body {
-    padding-top: 70px; 
-}
-
-
-
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
@@ -3758,8 +3744,6 @@ body {
 
 /* Nav */
 
-
-
 	#nav {
 		-moz-transform: translateX(20em);
 		-webkit-transform: translateX(20em);
@@ -3880,7 +3864,6 @@ body {
 			#nav {
 				padding: 2.5em 1.75em;
 			}
-			
 
 		}
 
@@ -4464,5 +4447,4 @@ footer ul.icons a {
     margin-right: auto;
     width: 80%;
 }
-
 
